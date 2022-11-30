@@ -1,5 +1,4 @@
 #!/bin/bash
 
-if [ $1 = $USER]; then
-echo "El usuario coincide con el primer parametro"
-fi
+rm -r ~/megapractico/practicos/*.txt && rm ~/megapractico/teoricos/*.odp
+rmdir ~/megapractico/archivos/archivos_importantes ~/megapractico/archivos/archivos_no_importantes ~/megapractico/archivos ~/megapractico/practicos ~/megapractico/teoricos ~/megapractico
